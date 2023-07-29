@@ -1,0 +1,15 @@
+{
+  "livePreview": false,
+  "defaultViewMode": "preview",
+  "showLineNumber": false,
+  "spellcheckLanguages": [
+    "en-US",
+    "es-ES"
+  ],
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "600 - Archivos",
+  "autoPairBrackets": true,
+  "strictLineBreaks": false,
+  "alwaysUpdateLinks": true
+}
