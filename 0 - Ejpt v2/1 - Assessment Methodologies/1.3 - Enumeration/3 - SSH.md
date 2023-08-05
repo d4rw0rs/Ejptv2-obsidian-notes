@@ -28,4 +28,5 @@ hydra -l USER -P wordlist IP_ADDRESS ssh
 ## Metasploit
 ```
 auxiliary/scanner/ssh/ssh_login
+auxiliary/scanner/ssh/ssh_version
 ```
