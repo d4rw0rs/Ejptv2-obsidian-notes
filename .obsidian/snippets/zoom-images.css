@@ -1,0 +1,42 @@
+
+/* -------------------------  */
+/* Zoom images snippet  */
+/* ------------------------ */
+
+
+.markdown-preview-view img {
+  cursor: zoom-in;
+  border-radius: 15px;
+  transition: 220ms ease-in-out;
+}
+
+.markdown-preview-view img:active {
+	cursor:zoom-out;
+	display:block;
+	z-index:100;
+	position:fixed;
+  max-height:100%;
+  max-width:100%;
+  height:100%;
+  width:100%;
+  object-fit: contain;
+  margin:0 auto;
+  text-align:center;
+  padding: 31px;
+  left:0;
+  right:0;
+  bottom:0;
+  background:var(--background-primary);
+  animation-name: example2;
+  animation-duration: 6.5s ;
+  animation-iteration-count: infinite;
+}
+
+
+@keyframes example2 {
+  100% {background-color: var(--background-primary);}
+  50% {background-color:  var(--background-secondary);}
+  100% {background-color: var(--background-primary);}
+}
+
+

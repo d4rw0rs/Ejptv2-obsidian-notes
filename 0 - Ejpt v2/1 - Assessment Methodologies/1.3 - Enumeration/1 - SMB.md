@@ -48,8 +48,10 @@ auxiliary/scanner/smb/smb_login
 nmblookup -A IP_ADDRESS
 ```
 
-## SMBClient
+## SMBClient -> no info about shares permissions
 ```
+[!] Only use / when connecting to a share, use the following syntax always
+
 smbclient -L IP_ADDRESS -N -> list shares using a null session
 smbclient -L IP_ADDRESS -U USER
 smbclient //IP_ADDRESS/drive -N -> connect to a drive with a null session

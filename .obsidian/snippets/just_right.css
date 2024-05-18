@@ -1,0 +1,8 @@
+
+/* Justified text right */
+
+.cm-s-obsidian,
+.markdown-preview-view {
+  text-align: right;
+  hyphens: auto;
+}
